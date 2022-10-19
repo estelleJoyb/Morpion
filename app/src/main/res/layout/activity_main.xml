@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="599dp"
+        android:layout_height="966dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="-2dp"
+        android:paddingBottom="20dp"
+        >
+
+        <TextView
+            android:id="@+id/text_titre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="@string/jeu_morpion"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/text_QuiJoue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="@string/QuiJoue"
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <RelativeLayout
+                android:layout_width="140dp"
+                android:padding="5dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/vert_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/vert_11"
+                    app:srcCompat="@drawable/vert"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/croix_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/croix_11"
+                    app:srcCompat="@drawable/croix"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/cercle_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/cercle_11"
+                    app:srcCompat="@drawable/cercle"
+                    tools:ignore="MissingConstraints" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:padding="5dp"
+                android:layout_width="140dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/vert_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/vert_12"
+                    app:srcCompat="@drawable/vert"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/croix_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/croix_12"
+                    app:srcCompat="@drawable/croix"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/cercle_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/cercle_12"
+                    app:srcCompat="@drawable/cercle"
+                    tools:ignore="MissingConstraints" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:padding="5dp"
+                android:layout_width="140dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/vert_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/vert_13"
+                    app:srcCompat="@drawable/vert"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/croix_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/croix_13"
+                    app:srcCompat="@drawable/croix"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/cercle_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/cercle_13"
+                    app:srcCompat="@drawable/cercle"
+                    tools:ignore="MissingConstraints" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <RelativeLayout
+                android:padding="5dp"
+                android:layout_width="140dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/vert_21"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/vert_21"
+                    app:srcCompat="@drawable/vert"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/croix_21"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/croix_21"
+                    app:srcCompat="@drawable/croix"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/cercle_21"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/cercle_21"
+                    app:srcCompat="@drawable/cercle"
+                    tools:ignore="MissingConstraints" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:padding="5dp"
+                android:layout_width="140dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/vert_22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/vert_22"
+                    app:srcCompat="@drawable/vert"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/croix_22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/croix_22"
+                    app:srcCompat="@drawable/croix"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/cercle_22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/cercle_22"
+                    app:srcCompat="@drawable/cercle"
+                    tools:ignore="MissingConstraints" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:padding="5dp"
+                android:layout_width="140dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/vert_23"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/vert_23"
+                    app:srcCompat="@drawable/vert"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/cercle_23"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/cercle_23"
+                    app:srcCompat="@drawable/cercle"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/croix_23"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/croix_23"
+                    app:srcCompat="@drawable/croix"
+                    tools:ignore="MissingConstraints" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <RelativeLayout
+                android:padding="5dp"
+                android:layout_width="140dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/vert_31"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/vert_31"
+                    app:srcCompat="@drawable/vert"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/croix_31"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/croix_31"
+                    app:srcCompat="@drawable/croix"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/cercle_31"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/cercle_31"
+                    app:srcCompat="@drawable/cercle"
+                    tools:ignore="MissingConstraints" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:padding="5dp"
+                android:layout_width="140dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/vert_32"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/vert_32"
+                    app:srcCompat="@drawable/vert"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/croix_32"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/croix_32"
+                    app:srcCompat="@drawable/croix"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/cercle_32"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/cercle_32"
+                    app:srcCompat="@drawable/cercle"
+                    tools:ignore="MissingConstraints" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:padding="5dp"
+                android:layout_width="140dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/vert_33"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/vert_33"
+                    app:srcCompat="@drawable/vert"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/croix_33"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/croix_33"
+                    app:srcCompat="@drawable/croix"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/cercle_33"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/cercle_33"
+                    app:srcCompat="@drawable/cercle"
+                    tools:ignore="MissingConstraints" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

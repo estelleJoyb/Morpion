@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Morpion</string>
+    <string name="jeu_morpion">Jeu du Morpion</string>
+    <string name="QuiJoue">Croix : C\'est à vous de jouer</string>
+
+    <string name="cercle_11">Cercle 11</string>
+    <string name="cercle_12">Cercle 12</string>
+    <string name="cercle_13">Cercle 13</string>
+    <string name="cercle_21">Cercle 21</string>
+    <string name="cercle_22">Cercle 22</string>
+    <string name="cercle_23">Cercle 23</string>
+    <string name="cercle_31">Cercle 31</string>
+    <string name="cercle_32">Cercle 32</string>
+    <string name="cercle_33">Cercle 33</string>
+
+    <string name="croix_11">croix 11</string>
+    <string name="croix_12">croix 12</string>
+    <string name="croix_13">croix 13</string>
+    <string name="croix_21">croix 21</string>
+    <string name="croix_22">croix 22</string>
+    <string name="croix_23">croix 23</string>
+    <string name="croix_31">croix 31</string>
+    <string name="croix_32">croix 32</string>
+    <string name="croix_33">croix 33</string>
+
+    <string name="vert_11">vert 11</string>
+    <string name="vert_12">vert 12</string>
+    <string name="vert_13">vert 13</string>
+    <string name="vert_21">vert 21</string>
+    <string name="vert_22">vert 22</string>
+    <string name="vert_23">vert 23</string>
+    <string name="vert_31">vert 31</string>
+    <string name="vert_32">vert 32</string>
+    <string name="vert_33">vert 33</string>
+</resources>
